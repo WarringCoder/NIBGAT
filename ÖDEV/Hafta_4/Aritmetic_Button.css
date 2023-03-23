@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(../Hafta_4/İmage/Background.jpg);
+    background-size: cover;
+}
+.Buttons_Container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 320px;
+}
+.Button
+{
+    display: flex;
+    gap: 90px;
+    
+}
+button
+{
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color:rgb(197, 173, 35);
+    color:white;
+    font-size: 17px;
+    font-weight: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+}
+button:hover
+{
+    box-shadow: 10px 10px 30px gold;
+}

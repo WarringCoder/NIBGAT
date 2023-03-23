@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta 
+            charset="UTF-8"
+        >
+        <meta 
+            http-equiv="X-UA-Compatible" 
+            content="IE=edge"
+        >
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+        >
+        <title>Arithmetic Button</title>
+        <link 
+            rel="stylesheet" 
+            href="Aritmetic_Button.css"
+        >
+        <link 
+            rel="shortcut icon" 
+            href="../Hafta_4/İmage/Aritmetic_Button.ico"
+        >
+    </head>
+    <body>
+        <div 
+            class="Buttons_Container"
+        >
+            <div 
+                class="Button"
+            >
+                <button onclick="collection()">TOPLAMA</button>
+                <button onclick="extraction()">ÇIKARMA</button>
+                <button onclick="impact()">ÇARPMA</button>
+                <button onclick="divide()">BÖLME</button>
+                <button onclick="remainder()">KALAN</button>
+            </div>
+        </div>
+        <script>
+            var x = 1453;
+            var y = 1077;
+            function collection()
+            {
+                alert(x + y);
+            }
+            function extraction()
+            {
+                alert(x - y);
+            }
+            function impact()
+            {
+                alert(x * y);
+            }
+            function divide()
+            {
+                alert(x / y);
+            }
+            function remainder()
+            {
+                alert(x % y);
+            }
+        </script>   
+    </body>
+</html>
