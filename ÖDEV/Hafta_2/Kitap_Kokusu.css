@@ -1,0 +1,99 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    background-color: rgb(98, 42, 167);
+    border-bottom: 2px solid white;
+    height: 60px;       
+}
+nav
+{
+    position: absolute;
+    top: 18px;
+    right: 405px;  
+}
+a
+{
+    margin: 21px;
+    text-decoration: none;
+    color: white;
+}
+#Logo_1
+{
+    width: 70px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    z-index: 1;
+}
+#Logo_2
+{
+    width: 70px; 
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    z-index: 1;
+}
+body
+{
+    background-color: rgb(38, 2, 61);
+}
+.card
+{
+    width: 200px;
+    height: 236px;
+    border-radius: 7px;
+    background-color: rgb(98, 42, 167);
+    margin: 44px;
+    float: left;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#completed
+{
+    position: absolute;
+    right: 60px;
+    top: 90px;
+}
+img
+{
+    width: 170px;
+    border-radius: 85px;
+}
+.card_2
+{
+    width: 280px;
+    height: 278px;
+    border-radius: 11px;
+    background-color: rgb(98, 42, 167);
+    margin: 5px;
+    float: left;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#completed_2
+{
+    position: absolute;
+    right: 55px;
+    top: 400px;
+}
+h2
+{
+    position: absolute;
+    bottom: 240px;
+    font-size: 21px;  
+    color: wheat;     
+}
+p
+{
+    margin: 10.5px;
+    position: relative;
+    top: 20px;
+    color: white;
+    
+}
