@@ -1,0 +1,152 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    
+    background-image: url(../Hafta_3/İmage/Stadium.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter:brightness(60%);
+}
+.Header_Container
+{
+    padding: 23px;
+    background-image: url(../Hafta_3/İmage/Black.jpg);
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+#Ball
+{
+    width: 66px;
+    position: relative;
+    left: 20px;
+    animation-name: BALL;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes BALL
+{
+    from
+    {
+        transform:rotate(0deg);
+    }
+    to
+    {
+        transform:rotate(900deg);
+    }
+}
+.link
+{
+    display: flex;
+    gap: 50px;
+    padding-top: 18px;
+    padding-right: 17px;
+    flex-wrap: wrap;
+   
+}
+a
+{
+    text-decoration: none;
+    color:white;
+    font-family:serif ;
+}
+
+.Logo_Container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.Head
+{
+    padding-top: 14px;
+    font-weight: 300;
+    font-family:fantasy;
+    letter-spacing: 5px;
+    font-size: 28px;
+    color: blanchedalmond;
+}
+.Full_Cards
+{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    flex-wrap: wrap;
+    padding-top: 115px;
+    padding-left: 193px;
+}
+.Card
+{
+    background-color: rgb(7, 47, 72);
+    height: 310px;
+    width: 200px;
+    border-radius: 60px 60px 60px 60px;
+    border: 3px solid rgb(44, 44, 44);
+    box-shadow: 5px 13px 7px gray;
+    
+}
+.Football_Player
+{
+    width: 200px;
+    height: 310px;
+    border-radius: 60px;
+}
+
+.Footer_Container
+{
+    margin-top: 130px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url(../Hafta_3/İmage/Black.jpg);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    border-radius: 17px 17px 0 0;
+    
+}
+h3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(../Hafta_3/İmage/Black.jpg);
+    width: 360px;
+    padding: 7px;
+    border-radius: 30px;
+    box-shadow: 0px 20px 25px rgb(96, 96, 96);
+    color: white;
+}
+.h
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 13px;
+
+}
+p
+{
+    position: relative;
+    bottom: 75px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 55px 55px;
+    backdrop-filter: blur(50px );
+    color: white;
+}
